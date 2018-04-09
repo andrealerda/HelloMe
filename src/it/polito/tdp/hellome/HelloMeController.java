@@ -31,7 +31,7 @@ public class HelloMeController {
 		if (nome.length() == 0) {
 			txtResult.setText("Errore: devi inserire un nome\n");
 		} else {
-			String msg = "Benvenuto, " + nome + "!\n";
+			String msg = "Welcome, " + nome + "!\n";
 			txtResult.setText(msg);
 		}
 	}
